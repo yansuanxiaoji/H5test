@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>欢迎使用工资管理系统</title>
+  <link href="./CSS/login.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"><!--布局不变的方法？-->
+</head>
+<body>
+
+
+</script>
+<div class="logo">
+  <img src="./images/logo.jpg" alt="logo">
+</div>
+
+
+
+
+
+
+<div class="banner_box">
+
+  <div id="wallpapers" >
+    <img src="./images/backimage.png" >
+  </div>
+
+
+  <div class="land_box">
+    <div class="land_960">
+      <!-- 帐号 + 密码登录 -->
+      <div class="land">
+        <form id="loginFrm" name="loginFrm" method="post" target="_top">
+          <div class="land_padding">
+            <input type="hidden" name="userid" id="userid">
+            <input type="hidden" name="linkpage" id="linkpage" value="http://cms.msdi.cn/main/">
+            <div class="land_input_box">
+              <span>工 号</span>
+              <input name="userName" type="text" value="" size="18" tabindex="1">
+              <input name="j_username" id="j_username" type="hidden" value="">
+            </div>
+            <div class="land_input_box">
+              <span>密 码</span>
+              <input name="password" type="password" value="" size="18" tabindex="2">
+            </div>
+            <div class="center hidden" style="display: none;">
+              <span>注意</span> <b>大写键（CapsLock）可能被锁定</b>
+              <div class="clear"></div>
+            </div>
+<!--            <div class="autologin_choice"><input type="checkbox" id="ss" name="ss" value="1" tabindex="4"><span> 当前设备24小时内自动登录</span></div>-->
+            <button class="land_input_box_two center">
+              <a id="btn-submit"  class="land_input_box_two_input" onfocus="this.blur()" tabindex="5">登陆</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
